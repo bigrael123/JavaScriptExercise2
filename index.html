@@ -8,8 +8,8 @@
 </head>
 <body>
     <div>
-     <label for="number1">Put you numbers here: </label><input type="number" id="number1"> 
-        <input type="number" id="number2"> 
+     <label for="number1">Put you numbers here: </label><input onkeyup="calculate()" onkeydown="CheckLetter()" type="number" id="number1"> 
+        <input onkeydown="CheckLetter()" onkeyup="calculate()" type="number" id="number2"> 
     </div>
     <br>
     <div>
@@ -23,7 +23,6 @@
     <br>
     <div class="result">
         <label for="answer" id="answer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Result: 0</label>
-        <button id="submit" onclick="calculate()">calculate</button>
     </div>
 </body>
 <script src="script.js"></script>

@@ -1,1 +1,1 @@
-In this exercise I had to utilize 2 input fields for the values to be calculated, a field select to select for the 4 basic operations, a div field for the answer and a button for the calculation.
+In this exercise I had to utilize 2 input fields for the values to be calculated, a field select to select for the 4 basic operations, a div field for the answer and a button for the calculation. Then the button is supposed to be removed and the calculation should happen after everyfield is modified.
